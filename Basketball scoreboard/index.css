@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    background: #1B244A;
+}
+
+.title{
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px; /* 89.732% */
+    width: 149px;
+    height: 36px;
+}
+
+.scoreboard{
+    width: 155px;
+    height: 120px;
+    flex-shrink: 0;
+    background: #080001;
+}
+
+.score{
+    display: block;
+    margin: auto;
+    width: 117px;
+    height: 120px;
+    flex-shrink: 0;
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px; /* 140.74% */
+}
+
+.btn-container{
+  box-sizing: border-box;
+  width: 155px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn{
+
+    width: 45px;
+    height: 45px;
+    flex-shrink: 1;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background: #1B244A;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px; /* 154.509% */
+}
+
+.btn-game{
+    margin-left: -50px;
+    margin-right: -50px;
+    padding: 8px 10px;
+    align-self: center;
+    border: 1px solid #9CA3AF;
+    border-radius: 10px;
+    background: #FDA4AF;
+    font-family: 'Stereotones', sans-serif;
+    color: #374151;
+    text-align: center;
+}
